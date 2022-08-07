@@ -33,6 +33,7 @@ object OneTimePadCipherObject {
             plainText += alphabet[(charIndex - keyIndex).mod(alphabet.length)]
         }
         return plainText
+
     }
 
 }
